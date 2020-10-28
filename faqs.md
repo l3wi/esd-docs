@@ -212,7 +212,7 @@ Alternatively, if you want to withdraw your awarded tokens or bond them to the D
 
 ### How does governance work?
 
-When you bond ESD into the DAO, you are issued ESDS tokens which represent your ownership share of the DAO. This entitles you to vote on upgrades to the protocol. A 1% ownership stake is required to propose a new candidate, but any DAO participant can vote. For a proposal to pass, a quorum of DAO participants (currently 33%) must approve it. A proposal is rejected if there are more reject votes than approve votes.
+When you bond ESD into the DAO, you are issued ESDS tokens which represent your ownership share of the DAO. This entitles you to vote on upgrades to the protocol. A 1% ownership stake is required to propose a new candidate, but any DAO participant can vote. For a proposal to pass, it must receive more approve votes than reject votes and participation must be greater than the quorum (currently 33%).
 
 You can view the active and past proposals on the Governance page (https://emptyset.finance/#/governance/).
 
