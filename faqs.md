@@ -208,6 +208,46 @@ Alternatively, if you want to withdraw your awarded tokens or bond them to the D
 
 <hr />
 
+## Governance
+
+### How does governance work?
+
+When you bond ESD into the DAO, you are issued ESDS tokens which represent your ownership share of the DAO. This entitles you to vote on upgrades to the protocol. A 1% ownership stake is required to propose a new candidate, but any DAO participant can vote. For a proposal to pass, it must receive more approve votes than reject votes and participation must be greater than the quorum (currently 33%).
+
+You can view the active and past proposals on the Governance page (https://emptyset.finance/#/governance/).
+
+![History of governance proposals](_media/candidate-history.png)
+
+The voting period is 9 epochs (3 days) from the time a candidate is proposed. After the voting period, if a proposal succeeded it must be committed to become active. Once committed, the candidate becomes the active DAO implementation.
+
+### How do I vote on a proposal?
+
+Click 'Go To' on a candidate in the list on the Governance page to view its status.
+
+![Proposal #7](_media/candidate.png)
+
+From here, click the Accept or Reject to send the transaction to record your vote. You must vote prior to the start of the 9th epoch after proposal or your vote will not count. In the example above (Proposal #7), the voting period ends at the start of epoch 164.
+
+**Once you vote, your stake is Locked until the end of the voting period.** You will not be able to unbond or withdraw until the voting period ends. You may change or withdraw ('unvote') your vote at any time during the voting period.
+
+### I am a liquidity provider and have bonded UNI-V2 LP tokens, can I vote?
+
+No, bonded LP tokens do not have voting rights in the DAO. You must  bond ESD directly via the Wallet page to have ownership in the DAO.
+
+### Can I wait until the last minute to vote?
+
+Yes, as long as you vote before the 9th epoch. However, by voting early the community sees the result of your vote and it may sway voters to vote with you.
+
+### I unvoted. Will my tokens be unlocked early?
+
+No, your tokens will remain locked until the voting period is complete. This is so that malicious voters cannot unvote and unbond at the last minute, causing a proposal to fall below quorum.
+
+### If I vote early, will bonding rewards I earn after I vote still count?
+
+Yes, the weight of your vote is determined by your stake in the DAO which doesn't change with bonding rewards.
+
+<hr />
+
 ## Troubleshooting
 
 ### I am trying to do an action on the DAO site, such as deposit or bond, and the button stays grayed out or won’t work -- why might this happen?
